@@ -35,7 +35,7 @@
 
 ```
   git log --oneline v0.12.23..v0.12.24
-```
+
  33ff1c03bb (tag: v0.12.24) v0.12.24
  b14b74c493 [Website] vmc provider links
  3f235065b9 Update CHANGELOG.md
@@ -47,14 +47,15 @@
  dd01a35078 Update CHANGELOG.md
  225466bc3e Cleanup after v0.12.23 release
 
+```
 5)Найдите коммит, в котором была создана функция func providerSource(...).
 
 ```
   git log -S'func providerSource' --oneline
-```
+
 5af1e6234a main: Honor explicit provider_installation CLI config when present
 8c928e8358 main: Consult local directories as potential mirrors of providers
-
+```
 6) Найдите все коммиты, в которых была изменена функция globalPluginDirs.
 
 ```
