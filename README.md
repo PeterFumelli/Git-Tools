@@ -63,6 +63,7 @@
 
 ```
   git log -S'globalPluginDirs' --pretty=format:"%h %an %s"
+
   7c4aeac5f3 Liam Cervante stacks: load credentials from config file on startup (#35952)
   65c4ba7363 Valeriy Pastushenko Remove terraform binary
   125eb51dc4 Alisdair McDiarmid Remove accidentally-committed binary
